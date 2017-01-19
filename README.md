@@ -9,6 +9,13 @@ CoLumn IMproved
 
 * It can use regexps for each field extracting only the desired data.
 
+## Installation
+
+
+```bash
+pip install clim
+```
+
 Examples:
 
 ```bash
