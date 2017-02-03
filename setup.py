@@ -5,7 +5,7 @@ here = path.abspath(path.dirname(__file__))
 
 setup(
     name='clim',
-    version='1.0.0',
+    version='1.0.1',
     description='CoLumn IMproved',
     long_description='clim is an improved version of *IX column command. Lets you print any TSV/CSV file in human readable format, with optional frames, and provides regular expressions to extract information from every field. It lets you convert single column files into tables as well.',
 
