@@ -255,7 +255,7 @@ class TextColumns:
             if self.frame:
                 self.print_horizline()
             self.printed += 1
-            self.print_row(headers)
+            self.print_row(self.headers)
             if self.frame:
                 self.print_horizline()
 
@@ -348,3 +348,6 @@ def main():
                   out_delim=args.out_delim)
     a.process(INPUT)
     a.finish()
+
+if __name__=='__main__':
+    main()
