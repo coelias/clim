@@ -5,9 +5,10 @@ here = path.abspath(path.dirname(__file__))
 
 setup(
     name='clim',
-    version='1.0.1',
+    version='1.0.2',
     description='CoLumn IMproved',
     long_description='clim is an improved version of *IX column command. Lets you print any TSV/CSV file in human readable format, with optional frames, and provides regular expressions to extract information from every field. It lets you convert single column files into tables as well.',
+    long_description_content_type='text/plain',
 
     url='https://github.com/coelias/clim',
     author='Carlos del Ojo Elias',

@@ -238,7 +238,7 @@ class TextColumns:
             self.print_row(i)
 
     def print_horizline(self):
-        print (-3+sum(self.field_sizes)+3*len(self.field_sizes)+4)*'='
+        print ((-3+sum(self.field_sizes)+3*len(self.field_sizes)+4)*'=')
 
     def finish(self):
         if self.current_row:
